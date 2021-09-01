@@ -1,0 +1,109 @@
+#container {
+    font-size: 16px;
+    box-sizing: border-box;
+    background-image: url("https://image.freepik.com/free-vector/noodle-seamless-pattern-yellow-waves-abstract-wavy-background-illustration_7280-3578.jpg");
+  }
+  #title {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    padding-top: 3rem;
+  }
+  #description {
+    font-size: 1.125rem;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lobster', cursive;  
+  }
+  #survey-form {
+    margin: auto;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  .form-group {
+    margin: 3vw;
+    max-width: 100%
+  }
+  .form-control {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: block;
+    min-width: 100%;
+    font-size: 1.125rem;
+    margin-top: 0.75vw;
+    padding: 1vw;
+    font-family: 'Patrick Hand', cursive;
+  }
+  #number-label, #email-label, #name-label {
+    font-size: 1.25rem;
+  }
+  #dropdown-label, #radio-label, #checkbox-label, #textarea-label {
+    font-size: 1.25rem;
+    margin-bottom: 1vw;
+  }
+  #dropdown {
+    font-size: 1.25rem;
+    min-width: 100%;
+    padding: 1vw;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: 'Patrick Hand', cursive;
+  }
+  textarea {
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 1rem 3rem;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+  }
+  .radio {
+    display: flex;
+    margin: 0.5rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    margin: 0.5rem 1.125rem 0.5rem 0.5rem;
+  }
+  #radio {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin: 0.5rem;
+  }
+  #checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin: 0.5rem;
+    
+  }
+  .checkbox {
+    display: flex;
+    margin: 0.5rem 1.125rem 0.5rem 0.5rem;
+    min-width: 1.25rem;
+    min-height: 1.25rem;
+  }
+  .submit-button {
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    padding: 1.5vw;
+    text-align: center;
+    margin-right: 3vw;
+    font-family: 'Patrick Hand', cursive;
+    background-color: white;
+  }
+  .btn {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    margin-bottom: 4vw;
+  }
+  #survey-form {
+    font-family: 'Patrick Hand', cursive;
+  }

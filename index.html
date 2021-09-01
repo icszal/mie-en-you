@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mie en You - Mie terenak di dunia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <div id="container">
+  <div id="header">
+    <h1 id="title">Mie en You </h1>
+    <p id="description">"Mie en You adalah mie terenak di dunia. No debat - Sun Tzu"</p>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label"
+               for="name">Nama:</label>
+        <input type="text" 
+               name="name" 
+               id="name" 
+               class="form-control" 
+               placeholder="Namamu..."
+               required>
+      </div>
+      <div class="form-group">
+        <label id="email-label"
+               for="email">Email:</label>
+        <input type="email"
+               name="email"
+               id="email"
+               class="form-control"
+               placeholder="Alamat email mu..."
+               required>
+      </div>
+      <div class="form-group">
+        <label id="number-label"
+               for="number">Mau pesen berapa?:</label>
+        <input type="number"
+               name="number"
+               id="number"
+               class="form-control"
+               placeholder="1-99 mangkok"
+               min="1"
+               max="99"
+               required>
+      </div>
+      <div class="form-group">
+        <p id="dropdown-label">Mie Goreng apa Mie Rebus?</p>
+        <select id="dropdown" 
+                name="dropdown" 
+                required>
+          <option disabled selected value>Rebus atau Goreng pilih salah satu aja</option>
+          <option value="goreng">Mie goreng</option>
+          <option value="rebus">Mie rebus</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p id="radio-label">Pake telor?</p>
+        <label id="radio">
+          <input class="radio" type="radio" value="yes" name="radio" checked>Iyaa
+        </label>
+        <label id="radio">
+          <input class="radio" type="radio" value="No" name="radio">Gak
+        </label>        
+      </div>
+      <div class="form-group">
+        <p id="checkbox-label">Topping?</p>
+        <label id="checkbox">
+          <input class="checkbox" type="checkbox" value="irisantimun" name="checkbox">Irisan timun
+        </label>
+        <label id="checkbox">
+          <input class="checkbox" type="checkbox" value="daunbawang" name="checkbox">Daun bawang
+        </label>
+        <label id="checkbox">
+          <input class="checkbox" type="checkbox" value="nasi" name="checkbox">Nasi
+        </label>
+      </div>
+      <div class="form-group">
+        <p id="textarea-label">Alamat mu?
+        </p>
+        <textarea placeholder="Alamat..."></textarea>
+      </div>
+      <p style="margin-left: 1.5vw;">*Mie akan dikirim setelah masa PPKM telah selesai</p>
+      <div class="btn"><button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+        
+      </div>
+    </form>
+    
+  </div>
+</div>
+</html>
